@@ -4,7 +4,10 @@ resource aws_lambda_function lambda {
     tags = var.tags
 
     environment {
-        PASSWORD = var.password
+        variables = {
+            PASSWORD = var.password
+        }
+        
     }
 
     filename         = var.filename
