@@ -1,9 +1,9 @@
 # Configuration
 Currently supports two types of searches. For sale and housing. For each type all of the filters that are specified in the base and specific class are supported.
 
-Base filters: https://github.com/juliomalegria/python-craigslist/blob/master/craigslist/base.py#L33
-Sale Filters: https://github.com/juliomalegria/python-craigslist/blob/master/craigslist/craigslist.py#L78
-Housing filters: https://github.com/juliomalegria/python-craigslist/blob/master/craigslist/craigslist.py#L142
+* Base filters: https://github.com/juliomalegria/python-craigslist/blob/master/craigslist/base.py#L33
+* Sale Filters: https://github.com/juliomalegria/python-craigslist/blob/master/craigslist/craigslist.py#L78
+* Housing filters: https://github.com/juliomalegria/python-craigslist/blob/master/craigslist/craigslist.py#L142
 
 ```
 type: house # 'sale' or 'house'
