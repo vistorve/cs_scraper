@@ -1,0 +1,24 @@
+type: sale
+
+email:
+  subject: Apartment Search
+  from: some_bot_account@gmail.com
+  password_env_var: PASSWORD
+  smtp:
+    host: smtp.gmail.com
+    port: 465
+
+  to:
+    - hello_world@gmail.com
+
+craigslist:
+  category: cta
+  site: portland
+  filters:
+    make: chevrolet
+    model: volt
+    query: volt
+    zip_code: 97206
+    search_distance: 200
+
+storage: s3://vistorve-data/cs_scrape/marcy_volt.json

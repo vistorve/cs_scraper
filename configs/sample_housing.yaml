@@ -1,0 +1,34 @@
+type: house
+
+email:
+  subject: Apartment Search
+  from: some_bot_account@gmail.com
+  password_env_var: PASSWORD
+  smtp:
+    host: smtp.gmail.com
+    port: 465
+
+  to:
+    - hello_world@gmail.com
+
+craigslist:
+  category: apa
+  site: portland
+  filters:
+    max_price: 1300
+    min_bedrooms: 1
+    min_bathrooms: 1
+    posted_today: true
+    zip_code: 97202
+    search_distance: 5
+
+geo_boundary:
+  se:
+    - 45.457
+    - -122.575
+  nw:
+    - 45.563
+    - -122.660
+
+storage: s3://some_bucket/cs_scrape/storage.json
+
